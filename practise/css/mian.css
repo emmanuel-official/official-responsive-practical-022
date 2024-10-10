@@ -1,0 +1,83 @@
+:root { 
+    --white-background: #ff0000;
+    --site-color-01: #c13584;
+    --site-color-02: #9e2c6d;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+.main-header .logo .Inlaks{
+    width: 130px;
+    height: 30px;
+    align-self: center;
+    padding-left: 30px;
+}
+.main-header {
+    display: flex;
+    background-color: #fff;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+}
+.logo {
+    display: flex;
+    width: fit-content;
+}
+.nav-bar {
+    margin-left: 50px;
+}
+.nav-bar ul {
+    display: flex;
+    color: #9e2c6d;
+    flex-direction: row;
+    width: fit-content;
+    float: left;
+}
+.nav-bar li {
+    padding: 0 10px 0 10px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.8rem;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.wrapper-main {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+.contact {
+    width: fit-content;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.contact .fb, .contact .ig {
+    width: 30px;
+}
+h3 {
+    font-size: 2.6rem;
+    /* text-align: center; */
+}
+p {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    /* font-size: 20px; */
+
+}
+footer {
+    background-color: #0b0f16;
+}
+li {
+    cursor: pointer;
+}
+.burger-menu, .burger-menu-btn {
+    display: none;
+}
